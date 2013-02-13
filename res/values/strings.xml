@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">Blood Pressure Log</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section1">Section 1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_input__blood__pressure__values">Input Information</string>
+    <string name="SystolicInputLabel">Systolic</string>
+    <string name="DiastolicInputLabel">Diastolic</string>
+    <string name="HeartRateInputLabel">Heart Rate</string>
+    <string name="SaveButton">Save</string>
+    <string name="title_activity_display_message">View Information</string>
+    <string name="strScatterGraph">Scatter Graph</string>
+    <string name="strLineGraph">Line Graph</string>
+    <string name="ViewButton">View Graphs</string>
+    <string name="strBarGraph">Bar Graph</string>
+
+</resources>

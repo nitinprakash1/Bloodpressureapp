@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+    <Button
+        android:id="@+id/ScatterGraph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:onClick="ScatterGraphHandler"
+        android:text="@string/strScatterGraph" />
+    
+     <Button
+        android:id="@+id/LineGraph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:onClick="LineGraphHandler"
+        android:text="@string/strLineGraph" />
+
+     <Button
+        android:id="@+id/BarGraph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:onClick="BarGraphHandler"
+        android:text="@string/strBarGraph" />
+
+</TableLayout>

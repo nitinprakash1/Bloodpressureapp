@@ -1,0 +1,43 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cs.dps914.bloodpressurelogapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Input_Blood_Pressure_Values"
+            android:label="@string/title_activity_input__blood__pressure__values" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DisplayMessageActivity"
+            android:label="@string/title_activity_display_message" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cs.dps914.bloodpressurelog.Input_Blood_Pressure_Values" />
+        </activity>
+        
+        <activity
+            android:name=".ViewData"
+            android:label="View Data" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cs.dps914.bloodpressurelog.ViewData" />
+        </activity>
+        
+        
+        <activity android:name="org.achartengine.GraphicalActivity"/>
+    </application>
+
+</manifest>
